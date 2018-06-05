@@ -1,0 +1,676 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CBasic.Utility</name>
+    </assembly>
+    <members>
+        <member name="T:CBasic.Utility.Mail">
+            <summary>
+            邮件发送
+            </summary>
+        </member>
+        <member name="M:CBasic.Utility.Mail.#ctor">
+            <summary>
+            初始化 Mail 的新实例
+            </summary>
+        </member>
+        <member name="M:CBasic.Utility.Mail.SendSMTPEmail">
+            <summary>
+            以 SMTP 方式发送邮件
+            </summary>
+        </member>
+        <member name="P:CBasic.Utility.Mail.Host">
+            <summary>
+            获取或设置邮件主机（SMTP服务器）。
+            </summary>
+        </member>
+        <member name="P:CBasic.Utility.Mail.Port">
+            <summary>
+            获取或设置邮件服务器 SMTP 端口
+            </summary>
+        </member>
+        <member name="P:CBasic.Utility.Mail.EnableSSL">
+            <summary>
+            获取或设置邮件服务器是否使用 SSL
+            </summary>
+        </member>
+        <member name="P:CBasic.Utility.Mail.UserName">
+            <summary>
+            获取或设置用于验证的 SMTP 用户名
+            </summary>
+        </member>
+        <member name="P:CBasic.Utility.Mail.Password">
+            <summary>
+            获取或设置用于验证的 SMTP 密码
+            </summary>
+        </member>
+        <member name="P:CBasic.Utility.Mail.From">
+            <summary>
+            获取或设置发送方邮件地址
+            </summary>
+        </member>
+        <member name="P:CBasic.Utility.Mail.DisplayName">
+            <summary>
+            获取或设置发送方名称
+            </summary>
+        </member>
+        <member name="P:CBasic.Utility.Mail.To">
+            <summary>
+            获取或设置收件人
+            </summary>
+        </member>
+        <member name="P:CBasic.Utility.Mail.Subject">
+            <summary>
+            获取或设置邮件标题
+            </summary>
+        </member>
+        <member name="P:CBasic.Utility.Mail.Body">
+            <summary>
+            获取或设置邮件内容
+            </summary>
+        </member>
+        <member name="P:CBasic.Utility.Mail.Encoding">
+            <summary>
+            获取或设置邮件编码。默认为 GB2312。
+            </summary>
+        </member>
+        <member name="P:CBasic.Utility.Mail.IsBodyHtml">
+            <summary>
+            获取或设置邮件正文是否为 Html 格式
+            </summary>
+        </member>
+        <member name="P:CBasic.Utility.Mail.Method">
+            <summary>
+            获取或设置如果发送邮件。默认为 SmtpDeliveryMothod.NetWork
+            </summary>
+        </member>
+        <member name="T:CBasic.Utility.ImageThumbnail">
+            <summary>
+            缩略图处理
+            </summary>
+        </member>
+        <member name="M:CBasic.Utility.ImageThumbnail.Save(System.Drawing.Bitmap,System.String)">
+            <summary>
+            保存指定System.Drawing.Bitmap对象至descsrc
+            </summary>
+            <param name="orgimage">要保存的System.Drawing.Bitmap对象</param>
+            <param name="descsrc">要保存的文件路径（包括文件名）</param>
+            <returns></returns>
+        </member>
+        <member name="M:CBasic.Utility.ImageThumbnail.ThumbImage">
+            <summary>
+            生成缩略图并返回。
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:CBasic.Utility.ImageThumbnail.ThumbWidth">
+            <summary>
+            获取或设置缩略图宽度。必须将 Auto 设置为 false
+            </summary>
+        </member>
+        <member name="P:CBasic.Utility.ImageThumbnail.ThumbHeight">
+            <summary>
+            获取或设置缩略图高度。必须将 Auto 设置为 false
+            </summary>
+        </member>
+        <member name="P:CBasic.Utility.ImageThumbnail.Src">
+            <summary>
+            获取或设置需进行缩放的文件绝对路径。
+            </summary>
+        </member>
+        <member name="P:CBasic.Utility.ImageThumbnail.Zoom">
+            <summary>
+            获取或设置自动缩放比例。必须将 Auto 设置为 true
+            </summary>
+        </member>
+        <member name="P:CBasic.Utility.ImageThumbnail.Auto">
+            <summary>
+            获取或设置是否自动缩放。默认为 true
+            </summary>
+        </member>
+        <member name="T:CBasic.Utility.Validator">
+            <summary>
+            验证类
+            </summary>
+        </member>
+        <member name="M:CBasic.Utility.Validator.IsOdd(System.Int32)">
+            <summary>
+            是否为奇数
+            </summary>
+            <param name="num"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CBasic.Utility.Validator.IsInt(System.Object)">
+            <summary>
+            是否为整数
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CBasic.Utility.Validator.IsIntArray(System.Object)">
+            <summary>
+            是否为整型数组
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CBasic.Utility.Validator.IsValidUserName(System.String)">
+            <summary>
+            是否正确的用户名格式
+            </summary>
+            <param name="str">用户名</param>
+            <returns></returns>
+        </member>
+        <member name="M:CBasic.Utility.Validator.IsValidPassword(System.String)">
+            <summary>
+            是否正确的密码格式
+            </summary>
+            <param name="str">密码</param>
+            <returns></returns>
+        </member>
+        <member name="T:CBasic.Utility.ClientInfo">
+            <summary>
+            客户端信息
+            </summary>
+        </member>
+        <member name="P:CBasic.Utility.ClientInfo.CurrentIP">
+            <summary>
+            当前客户端IP
+            </summary>
+        </member>
+        <member name="P:CBasic.Utility.ClientInfo.OS">
+            <summary>
+            当前客户端操作系统
+            </summary>
+        </member>
+        <member name="T:CBasic.Utility.PartitionContent">
+            <summary>
+            文章内容分页
+            </summary>
+        </member>
+        <member name="M:CBasic.Utility.PartitionContent.ArticleContent(System.String)">
+            <summary>
+            文章内容分页。需使用web.config文件配置PartitionPage节点
+            </summary>
+            <param name="content">需分页的字符串</param>
+            <returns></returns>
+        </member>
+        <member name="T:CBasic.Utility.Net">
+            <summary>
+            网络文件处理
+            </summary>
+        </member>
+        <member name="F:CBasic.Utility.Net.Referer">
+            <summary>
+            获取或设置 HttpReferer
+            </summary>
+        </member>
+        <member name="F:CBasic.Utility.Net.UserAgent">
+            <summary>
+            获取或设置 UserAgent
+            </summary>
+        </member>
+        <member name="F:CBasic.Utility.Net.Coding">
+            <summary>
+            获取或设置目标网页的编码
+            </summary>
+        </member>
+        <member name="M:CBasic.Utility.Net.GetByte(System.String)">
+            <summary>
+            获取字节流
+            </summary>
+            <param name="url">目标 Url</param>
+            <returns></returns>
+        </member>
+        <member name="M:CBasic.Utility.Net.GetByte(System.String,System.String)">
+            <summary>
+            获取字节流
+            </summary>
+            <param name="url">目标 Url</param>
+            <param name="postData">需提交的数据</param>
+            <returns></returns>
+        </member>
+        <member name="M:CBasic.Utility.Net.GetStream(System.String)">
+            <summary>
+            获取文件流
+            </summary>
+            <param name="url">目标 Url</param>
+            <returns></returns>
+        </member>
+        <member name="M:CBasic.Utility.Net.GetStream(System.String,System.String)">
+            <summary>
+            获取文件流
+            </summary>
+            <param name="url">目标 Url</param>
+            <param name="postData">需提交的数据</param>
+            <returns></returns>
+        </member>
+        <member name="M:CBasic.Utility.Net.GetText(System.String)">
+            <summary>
+            获取文本字符
+            </summary>
+            <param name="url">目标 Url</param>
+            <returns></returns>
+        </member>
+        <member name="M:CBasic.Utility.Net.GetText(System.String,System.String)">
+            <summary>
+            获取文本字符
+            </summary>
+            <param name="url">目标 Url</param>
+            <param name="postData">需提交的数据</param>
+            <returns></returns>
+        </member>
+        <member name="T:CBasic.Utility.FileUtility">
+            <summary>
+            文件处理
+            </summary>
+        </member>
+        <member name="M:CBasic.Utility.FileUtility.DeleteFile(System.String,System.String)">
+            <summary>
+            比较文件路径，如不相等则删除旧文件
+            </summary>
+            <param name="oldFile">旧文件</param>
+            <param name="newFile">新文件</param>
+        </member>
+        <member name="M:CBasic.Utility.FileUtility.Exist(System.String)">
+            <summary>
+            确定指定的文件是否存在
+            </summary>
+            <param name="path">要检查的文件</param>
+            <returns></returns>
+        </member>
+        <member name="M:CBasic.Utility.FileUtility.Create(System.String,System.String,System.String,System.Text.Encoding)">
+            <summary>
+            创建一个新文件，在其中写入指定的字符串，然后关闭文件。如果目录不存在，则创建目录。如果目标文件已存在，则覆盖该文件。
+            </summary>
+            <param name="directory">要写入文件的目录</param>
+            <param name="filename">要写入的文件名。</param>
+            <param name="content">要写入文件的字符串。</param>
+            <param name="encoding">一个 System.Text.Encoding 对象，表示应用于字符串的编码。</param>
+        </member>
+        <member name="T:CBasic.Utility.Action">
+            <summary>
+            表单 Action 的枚举
+            </summary>
+        </member>
+        <member name="F:CBasic.Utility.Action.Default">
+            <summary>
+            默认状态
+            </summary>
+        </member>
+        <member name="F:CBasic.Utility.Action.Add">
+            <summary>
+            添加状态
+            </summary>
+        </member>
+        <member name="F:CBasic.Utility.Action.Edit">
+            <summary>
+            编辑状态
+            </summary>
+        </member>
+        <member name="F:CBasic.Utility.Action.Delete">
+            <summary>
+            删除状态
+            </summary>
+        </member>
+        <member name="F:CBasic.Utility.Action.Search">
+            <summary>
+            搜索
+            </summary>
+        </member>
+        <member name="F:CBasic.Utility.Action.DoSearch">
+            <summary>
+            执行搜索
+            </summary>
+        </member>
+        <member name="F:CBasic.Utility.Action.Insert">
+            <summary>
+            执行添加
+            </summary>
+        </member>
+        <member name="F:CBasic.Utility.Action.Update">
+            <summary>
+            执行更新
+            </summary>
+        </member>
+        <member name="F:CBasic.Utility.Action.Recycled">
+            <summary>
+            回收
+            </summary>
+        </member>
+        <member name="F:CBasic.Utility.Action.Giveback">
+            <summary>
+            恢复(还原)
+            </summary>
+        </member>
+        <member name="F:CBasic.Utility.Action.LogOn">
+            <summary>
+            登录状态
+            </summary>
+        </member>
+        <member name="F:CBasic.Utility.Action.LogOff">
+            <summary>
+            注销状态
+            </summary>
+        </member>
+        <member name="F:CBasic.Utility.Action.Passed">
+            <summary>
+            审核
+            </summary>
+        </member>
+        <member name="T:CBasic.Utility.Cookies">
+            <summary>
+            Cookies对象操作
+            </summary>
+        </member>
+        <member name="M:CBasic.Utility.Cookies.#ctor(System.String)">
+            <summary>
+            实例化一个名称为cookiesName的Cookie对象
+            </summary>
+            <param name="cookiesName"></param>
+        </member>
+        <member name="M:CBasic.Utility.Cookies.Add(System.String,System.String)">
+            <summary>
+            向Cookies实例添加一个子键
+            </summary>
+            <param name="subKeyName">子键名称</param>
+            <param name="subKeyValue">子键值</param>
+        </member>
+        <member name="M:CBasic.Utility.Cookies.GetSubKeyValue(System.String)">
+            <summary>
+            获取Cookies实例的一个子键的值
+            </summary>
+            <param name="subKeyName">要获取值的子键名称</param>
+            <returns></returns>
+        </member>
+        <member name="M:CBasic.Utility.Cookies.Set(System.String,System.String)">
+            <summary>
+            更新Cookies实例的一个子键的值
+            </summary>
+            <param name="subKeyName">要更新的子键名称</param>
+            <param name="subKeyValue">要更新的子键的值</param>
+        </member>
+        <member name="M:CBasic.Utility.Cookies.Remove(System.String)">
+            <summary>
+            从Cookies实例删除一个子键
+            </summary>
+            <param name="subKeyName">要删除的子键名称</param>
+        </member>
+        <member name="M:CBasic.Utility.Cookies.Clear">
+            <summary>
+            从Cookies实例移除所有子键
+            </summary>
+        </member>
+        <member name="P:CBasic.Utility.Cookies.Count">
+            <summary>
+            获取Cookies实例中子键的数目
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:CBasic.Utility.Text">
+            <summary>
+            文本操作
+            </summary>
+        </member>
+        <member name="M:CBasic.Utility.Text.MD5(System.String,System.Int32)">
+            <summary>
+            MD5加密
+            </summary>
+            <param name="str">加密的字符</param>
+            <param name="dig">位数,16、32可选</param>
+            <returns></returns>
+        </member>
+        <member name="M:CBasic.Utility.Text.GetLength(System.String)">
+            <summary>
+            获取 sourceString 字符串的长度。
+            </summary>
+            <param name="sourceString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CBasic.Utility.Text.Substring(System.String,System.Int32)">
+            <summary>
+            截取 sourceString 字符串，返回截取后的内容
+            </summary>
+            <param name="sourceString">需截取的内容</param>
+            <param name="length">截取长度</param>
+            <returns></returns>
+        </member>
+        <member name="M:CBasic.Utility.Text.SubString(System.String,System.Int32,System.String)">
+            <summary>
+            截取 sourceString 字符串，返回截取后的内容，并以 ellipsis 填充到末尾
+            </summary>
+            <param name="sourceString"></param>
+            <param name="length"></param>
+            <param name="ellipsis"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CBasic.Utility.Text.CheckString(System.String)">
+            <summary>
+            检查并格式化非法字符
+            </summary>
+            <param name="str">需格式化的内容</param>
+            <returns>格式化后的字符串</returns>
+        </member>
+        <member name="M:CBasic.Utility.Text.ReplaceInjectString(System.String)">
+            <summary>
+            格式化可能注入的字符。非存储过程时使用。
+            </summary>
+            <param name="str">需格式化的内容</param>
+            <returns></returns>
+        </member>
+        <member name="M:CBasic.Utility.Text.HtmlEncodes(System.String)">
+            <summary>
+            将str格式化化为HTML代码
+            </summary>
+            <param name="str">格式化的内容</param>
+            <returns>Html编码后的Html字符串</returns>
+        </member>
+        <member name="M:CBasic.Utility.Text.HtmlDecodes(System.String)">
+            <summary>
+            反编码HTML代码
+            </summary>
+            <param name="str">格式化的内容</param>
+            <returns>反编码后的字符串</returns>
+        </member>
+        <member name="M:CBasic.Utility.Text.ReplaceHtml(System.String)">
+            <summary>
+            去除所有Html标签
+            </summary>
+            <param name="str">需格式化的内容</param>
+            <returns></returns>
+        </member>
+        <member name="M:CBasic.Utility.Text.Equal(System.String,System.Int32)">
+            <summary>
+            比较两个值是否相等
+            </summary>
+            <param name="inputA">第一个字符串</param>
+            <param name="inputB">第二个字符串</param>
+            <returns></returns>
+        </member>
+        <member name="M:CBasic.Utility.Text.GenerateTagsUrl(System.String,System.String)">
+            <summary>
+            生成标签链接
+            </summary>
+            <param name="url">标签链接 URL</param>
+            <param name="tags">标签名称（以 , 号分隔）</param>
+            <returns></returns>
+        </member>
+        <member name="M:CBasic.Utility.Text.BubbleSortAsc(System.Int32[])">
+            <summary>
+            以冒泡形式正序排列
+            </summary>
+            <param name="nums">需排列的整数</param>
+            <returns></returns>
+        </member>
+        <member name="M:CBasic.Utility.Text.BubbleSortDesc(System.Int32[])">
+            <summary>
+            以冒泡形式逆序排列
+            </summary>
+            <param name="nums">需排列的整数</param>
+            <returns></returns>
+        </member>
+        <member name="P:CBasic.Utility.Text.CreatePassword">
+            <summary>
+            生成随机码
+            </summary>
+        </member>
+        <member name="T:CBasic.Utility.ServerInfo">
+            <summary>
+            服务器信息
+            </summary>
+        </member>
+        <member name="P:CBasic.Utility.ServerInfo.OS">
+            <summary>
+            服务器系统版本及补丁
+            </summary>
+        </member>
+        <member name="P:CBasic.Utility.ServerInfo.ProcessorCount">
+            <summary>
+            服务器CPU个数
+            </summary>
+        </member>
+        <member name="T:CBasic.Utility.ConvertUtil">
+            <summary>
+            类型转换
+            </summary>
+        </member>
+        <member name="M:CBasic.Utility.ConvertUtil.DateTimeToString(System.Object)">
+            <summary>
+            将日期转换为字符串
+            </summary>
+            <param name="s">要转换的日期</param>
+            <returns></returns>
+        </member>
+        <member name="M:CBasic.Utility.ConvertUtil.DateTimeToShortDateString(System.Object)">
+            <summary>
+            将日期转换为短日期字符串
+            </summary>
+            <param name="s">要转换的日期</param>
+            <returns></returns>
+        </member>
+        <member name="M:CBasic.Utility.ConvertUtil.BoolToString(System.Boolean)">
+            <summary>
+            将bool类型转换为字符
+            </summary>
+            <param name="b">要转换的bool值</param>
+            <returns></returns>
+        </member>
+        <member name="M:CBasic.Utility.ConvertUtil.IntToBool(System.Int32)">
+            <summary>
+            将int类型转换为字符。如果input等于1，则返回true，否则返回false。
+            </summary>
+            <param name="input">要转换的int类型的值</param>
+            <returns></returns>
+        </member>
+        <member name="M:CBasic.Utility.ConvertUtil.ToSqlCondition(System.String)">
+            <summary>
+            转换成正确的 SQL 条件 where 表达式。
+            </summary>
+            <param name="condition">SQL条件语句</param>
+            <returns>正确的SQL条件语句（匹配本系统的）</returns>
+            <example>CheckCondition("aaa=1 and")将返回 " where aaa=1"</example>
+        </member>
+        <member name="T:CBasic.Utility.ImageWatermark">
+            <summary>
+            图片水印
+            </summary>
+        </member>
+        <member name="M:CBasic.Utility.ImageWatermark.Save(System.Drawing.Bitmap,System.String)">
+            <summary>
+            保存指定System.Drawing.Bitmap对象至descsrc
+            </summary>
+            <param name="image">要保存的System.Drawing.Bitmap对象</param>
+            <param name="descsrc">要保存的文件路径（包括文件名）</param>
+            <returns></returns>
+        </member>
+        <member name="M:CBasic.Utility.ImageWatermark.DrawString(System.String)">
+            <summary>
+            给图片加（文字）水印
+            </summary>
+            <param name="text">水印文字</param>
+            <returns></returns>
+        </member>
+        <member name="M:CBasic.Utility.ImageWatermark.DrawImage(System.Drawing.Bitmap)">
+            <summary>
+            给图片加（图片）水印
+            </summary>
+            <param name="bitmap">水印图片，一个 System.Drawing.Bitmap 对象</param>
+            <returns></returns>
+        </member>
+        <member name="P:CBasic.Utility.ImageWatermark.Auto">
+            <summary>
+            获取或设置是否自动调整水印大小。
+            </summary>
+        </member>
+        <member name="P:CBasic.Utility.ImageWatermark.ImageWidth">
+            <summary>
+            获取或设置水印图片宽度。必须将 Auto 设为 false
+            </summary>
+        </member>
+        <member name="P:CBasic.Utility.ImageWatermark.ImageHeight">
+            <summary>
+            获取或设置水印图片高度。必须将 Auto 设置为 false
+            </summary>
+        </member>
+        <member name="P:CBasic.Utility.ImageWatermark.FontSize">
+            <summary>
+            获取或设置水印文字大小。
+            </summary>
+        </member>
+        <member name="P:CBasic.Utility.ImageWatermark.FontFamily">
+            <summary>
+            获取或设置水印文字字体。
+            </summary>
+        </member>
+        <member name="P:CBasic.Utility.ImageWatermark.X">
+            <summary>
+            获取或设置水印 X 坐标。
+            </summary>
+        </member>
+        <member name="P:CBasic.Utility.ImageWatermark.Y">
+            <summary>
+            获取或设置水印 Y 坐标。
+            </summary>
+        </member>
+        <member name="P:CBasic.Utility.ImageWatermark.Position">
+            <summary>
+            获取或设置水印对齐位置。必须将 Auto 设置为 true
+            </summary>
+        </member>
+        <member name="P:CBasic.Utility.ImageWatermark.Src">
+            <summary>
+            获取或设置需加水印的源图片的绝对路径。
+            </summary>
+        </member>
+        <member name="T:CBasic.Utility.Position">
+            <summary>
+            水印位置
+            </summary>
+        </member>
+        <member name="F:CBasic.Utility.Position.TopLeft">
+            <summary>
+            左上
+            </summary>
+        </member>
+        <member name="F:CBasic.Utility.Position.TopRight">
+            <summary>
+            右上
+            </summary>
+        </member>
+        <member name="F:CBasic.Utility.Position.BottomLeft">
+            <summary>
+            左下
+            </summary>
+        </member>
+        <member name="F:CBasic.Utility.Position.BottomRight">
+            <summary>
+            右下
+            </summary>
+        </member>
+        <member name="F:CBasic.Utility.Position.Center">
+            <summary>
+            居中
+            </summary>
+        </member>
+    </members>
+</doc>

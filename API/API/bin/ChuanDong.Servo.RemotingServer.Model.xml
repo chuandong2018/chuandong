@@ -1,0 +1,293 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ChuanDong.Servo.RemotingServer.Model</name>
+    </assembly>
+    <members>
+        <member name="P:ChuanDong.Servo.RemotingServer.Model.ArticleInfo.MagazineID">
+            <summary>
+            杂志id
+            </summary>
+        </member>
+        <member name="P:ChuanDong.Servo.RemotingServer.Model.ArticleInfo.CategoryID">
+            <summary>
+            杂志类型
+            </summary>
+        </member>
+        <member name="P:ChuanDong.Servo.RemotingServer.Model.ArticleInfo.Title">
+            <summary>
+            文章标题
+            </summary>
+        </member>
+        <member name="P:ChuanDong.Servo.RemotingServer.Model.ArticleInfo.SubTitle">
+            <summary>
+            副标题
+            </summary>
+        </member>
+        <member name="P:ChuanDong.Servo.RemotingServer.Model.ArticleInfo.Introduction">
+            <summary>
+            文章简介
+            </summary>
+        </member>
+        <member name="P:ChuanDong.Servo.RemotingServer.Model.ArticleInfo.FrontCover">
+            <summary>
+            文章封面图
+            </summary>
+        </member>
+        <member name="P:ChuanDong.Servo.RemotingServer.Model.ArticleInfo.Content">
+            <summary>
+            文章详细内容
+            </summary>
+        </member>
+        <member name="P:ChuanDong.Servo.RemotingServer.Model.ArticleInfo.Author">
+            <summary>
+            作者
+            </summary>
+        </member>
+        <member name="P:ChuanDong.Servo.RemotingServer.Model.ArticleInfo.IsChecked">
+            <summary>
+            审核状态（1，显示，0，隐藏）
+            </summary>
+        </member>
+        <member name="P:ChuanDong.Servo.RemotingServer.Model.ArticleInfo.PageKeyword">
+            <summary>
+            页面关键词
+            </summary>
+        </member>
+        <member name="P:ChuanDong.Servo.RemotingServer.Model.ArticleInfo.PageDescription">
+            <summary>
+            页面描述
+            </summary>
+        </member>
+        <member name="P:ChuanDong.Servo.RemotingServer.Model.ArticleInfo.PageNumber">
+            <summary>
+            页码（页面排序）
+            </summary>
+        </member>
+        <member name="P:ChuanDong.Servo.RemotingServer.Model.ArticleInfo.Collect">
+            <summary>
+            收藏数
+            </summary>
+        </member>
+        <member name="P:ChuanDong.Servo.RemotingServer.Model.ArticleInfo.Hits">
+            <summary>
+            点击数
+            </summary>
+        </member>
+        <member name="P:ChuanDong.Servo.RemotingServer.Model.ArticleInfo.TechFileURL">
+            <summary>
+            （技术文章）下载文件地址
+            </summary>
+        </member>
+        <member name="P:ChuanDong.Servo.RemotingServer.Model.ArticleInfo.Downloads">
+            <summary>
+            下载次数
+            </summary>
+        </member>
+        <member name="P:ChuanDong.Servo.RemotingServer.Model.ArticleInfo.Joindate">
+            <summary>
+            添加时间
+            </summary>
+        </member>
+        <member name="P:ChuanDong.Servo.RemotingServer.Model.CategoryInfo.ID">
+            <summary>
+            类型ID
+            </summary>
+        </member>
+        <member name="P:ChuanDong.Servo.RemotingServer.Model.CategoryInfo.ParentID">
+            <summary>
+            类型父级ID
+            </summary>
+        </member>
+        <member name="P:ChuanDong.Servo.RemotingServer.Model.CategoryInfo.CategoryName">
+            <summary>
+            类型名称
+            </summary>
+        </member>
+        <member name="P:ChuanDong.Servo.RemotingServer.Model.CollectInfo.Title">
+            <summary>
+            收藏文章标题
+            </summary>
+        </member>
+        <member name="P:ChuanDong.Servo.RemotingServer.Model.CollectInfo.ArticleID">
+            <summary>
+            收藏文章id
+            </summary>
+        </member>
+        <member name="P:ChuanDong.Servo.RemotingServer.Model.CollectInfo.UserID">
+            <summary>
+            收藏用户id
+            </summary>
+        </member>
+        <member name="P:ChuanDong.Servo.RemotingServer.Model.CommendInfo.Title">
+            <summary>
+            推荐标题
+            </summary>
+        </member>
+        <member name="P:ChuanDong.Servo.RemotingServer.Model.CommendInfo.MagazineID">
+            <summary>
+            推荐对应杂志
+            </summary>
+        </member>
+        <member name="P:ChuanDong.Servo.RemotingServer.Model.CommendInfo.ModuleID">
+            <summary>
+            推荐模块id
+            </summary>
+        </member>
+        <member name="P:ChuanDong.Servo.RemotingServer.Model.CommendInfo.Style">
+            <summary>
+            推荐标题样式
+            </summary>
+        </member>
+        <member name="P:ChuanDong.Servo.RemotingServer.Model.CommendInfo.Img">
+            <summary>
+            推荐图片
+            </summary>
+        </member>
+        <member name="P:ChuanDong.Servo.RemotingServer.Model.CommendInfo.URL">
+            <summary>
+            推荐链接地址
+            </summary>
+        </member>
+        <member name="P:ChuanDong.Servo.RemotingServer.Model.CommendInfo.Description">
+            <summary>
+            推荐描述
+            </summary>
+        </member>
+        <member name="P:ChuanDong.Servo.RemotingServer.Model.CommendInfo.CommendTime">
+            <summary>
+            推荐时间
+            </summary>
+        </member>
+        <member name="P:ChuanDong.Servo.RemotingServer.Model.CommendModuleInfo.ModuleName">
+            <summary>
+            推荐模块名称
+            </summary>
+        </member>
+        <member name="P:ChuanDong.Servo.RemotingServer.Model.CommendModuleInfo.ModuleImg">
+            <summary>
+            预览图片
+            </summary>
+        </member>
+        <member name="P:ChuanDong.Servo.RemotingServer.Model.CommendModuleInfo.ModuleURL">
+            <summary>
+            预览地址
+            </summary>
+        </member>
+        <member name="P:ChuanDong.Servo.RemotingServer.Model.CommentInfo.ArticleID">
+            <summary>
+            评论的文章id
+            </summary>
+        </member>
+        <member name="P:ChuanDong.Servo.RemotingServer.Model.CommentInfo.ParentID">
+            <summary>
+            评论回复，0为一级评论
+            </summary>
+        </member>
+        <member name="P:ChuanDong.Servo.RemotingServer.Model.CommentInfo.Content">
+            <summary>
+            评论内容
+            </summary>
+        </member>
+        <member name="P:ChuanDong.Servo.RemotingServer.Model.CommentInfo.Joindate">
+            <summary>
+            评论时间
+            </summary>
+        </member>
+        <member name="P:ChuanDong.Servo.RemotingServer.Model.CommentInfo.UserID">
+            <summary>
+            评论用户id
+            </summary>
+        </member>
+        <member name="P:ChuanDong.Servo.RemotingServer.Model.EmailInfo.ID">
+            <summary>
+            编号ID
+            </summary>
+        </member>
+        <member name="P:ChuanDong.Servo.RemotingServer.Model.EmailInfo.Email">
+            <summary>
+            邮箱
+            </summary>
+        </member>
+        <member name="P:ChuanDong.Servo.RemotingServer.Model.EmailInfo.State">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:ChuanDong.Servo.RemotingServer.Model.EmailInfo.Joindate">
+            <summary>
+            时间
+            </summary>
+        </member>
+        <member name="P:ChuanDong.Servo.RemotingServer.Model.MagazineInfo.Title">
+            <summary>
+            杂志标题
+            </summary>
+        </member>
+        <member name="P:ChuanDong.Servo.RemotingServer.Model.MagazineInfo.TypeID">
+            <summary>
+            杂志类型（1，控制，2，伺服）
+            </summary>
+        </member>
+        <member name="P:ChuanDong.Servo.RemotingServer.Model.MagazineInfo.FrontCover">
+            <summary>
+            杂志封面
+            </summary>
+        </member>
+        <member name="P:ChuanDong.Servo.RemotingServer.Model.MagazineInfo.Introduction">
+            <summary>
+            简介
+            </summary>
+        </member>
+        <member name="P:ChuanDong.Servo.RemotingServer.Model.MagazineInfo.IsChecked">
+            <summary>
+            是否审核
+            </summary>
+        </member>
+        <member name="P:ChuanDong.Servo.RemotingServer.Model.MagazineInfo.Joindate">
+            <summary>
+            添加时间
+            </summary>
+        </member>
+        <member name="P:ChuanDong.Servo.RemotingServer.Model.MobileADInfo.ModuleID">
+            <summary>
+            广告栏目
+            </summary>
+        </member>
+        <member name="P:ChuanDong.Servo.RemotingServer.Model.MobileADInfo.ArticleID">
+            <summary>
+            对应文章ID
+            </summary>
+        </member>
+        <member name="P:ChuanDong.Servo.RemotingServer.Model.MobileADInfo.Title">
+            <summary>
+            标题
+            </summary>
+        </member>
+        <member name="P:ChuanDong.Servo.RemotingServer.Model.MobileADInfo.Description">
+            <summary>
+            描述
+            </summary>
+        </member>
+        <member name="P:ChuanDong.Servo.RemotingServer.Model.MobileADInfo.PhotoURL">
+            <summary>
+            图片地址
+            </summary>
+        </member>
+        <member name="P:ChuanDong.Servo.RemotingServer.Model.MobileADInfo.URL">
+            <summary>
+            链接地址
+            </summary>
+        </member>
+        <member name="P:ChuanDong.Servo.RemotingServer.Model.MobileADInfo.Hits">
+            <summary>
+            点击数
+            </summary>
+        </member>
+        <member name="P:ChuanDong.Servo.RemotingServer.Model.MobileADInfo.Joindate">
+            <summary>
+            添加时间
+            </summary> 
+        </member>
+    </members>
+</doc>

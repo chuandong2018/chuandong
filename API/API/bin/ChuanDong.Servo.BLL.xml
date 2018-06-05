@@ -1,0 +1,430 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ChuanDong.Servo.BLL</name>
+    </assembly>
+    <members>
+        <member name="M:ChuanDong.Servo.BLL.Article.AddArticle(ChuanDong.Servo.RemotingServer.Model.ArticleInfo)">
+            <summary>
+            增加文章
+            </summary>
+        </member>
+        <member name="M:ChuanDong.Servo.BLL.Article.UpdateArticle(ChuanDong.Servo.RemotingServer.Model.ArticleInfo)">
+            <summary>
+            修改文章
+            </summary>
+        </member>
+        <member name="M:ChuanDong.Servo.BLL.Article.IsCheckedArticle(System.Int32,System.Int32)">
+            <summary>
+            文章审核
+            </summary>
+            <param name="id">文章ID</param>
+            <param name="ischecked">审核状态</param>
+        </member>
+        <member name="M:ChuanDong.Servo.BLL.Article.DeleteArticle(System.Int32)">
+            <summary>
+            删除文章
+            </summary>
+            <param name="id">文章ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:ChuanDong.Servo.BLL.Article.DeleteArticle(System.String)">
+            <summary>
+            删除多条文章
+            </summary>
+            <param name="id">文章ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:ChuanDong.Servo.BLL.Article.GetArticle(System.Int32)">
+            <summary>
+            查询文章
+            </summary>
+            <param name="id">文章ID</param>
+        </member>
+        <member name="M:ChuanDong.Servo.BLL.Article.GetArticleCount(System.String)">
+            <summary>
+            根据条件获取文章记录数
+            </summary>
+            <param name="where"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ChuanDong.Servo.BLL.Article.GetArticleList(System.Int32,System.Int32,System.Int32,System.String,System.String)">
+            <summary>
+            获取符合指定条件的文章
+            </summary>
+            <param name="pageSize">页大小</param>
+            <param name="pageStart">起始页</param>
+            <param name="count">记录总数</param>
+            <param name="condition">条件</param>
+            <param name="orderStr">排序字符串</param>
+            <returns></returns>
+        </member>
+        <member name="M:ChuanDong.Servo.BLL.Article.GetArticleCommentCountList">
+            <summary>
+            获取文章评论排行top10
+            </summary>
+        </member>
+        <member name="M:ChuanDong.Servo.BLL.Article.GetArticleCommendCount(System.Int32)">
+            <summary>
+            获取某一篇文章评论数
+            </summary>
+            <param name="id">文章ID</param>
+        </member>
+        <member name="M:ChuanDong.Servo.BLL.Article.AddHits(System.Int32,System.Int32)">
+            <summary>
+            添加点击数
+            </summary>
+            <param name="hits"></param>
+            <param name="truehits"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ChuanDong.Servo.BLL.Article.AddCollect(System.Int32,System.Int32)">
+            <summary>
+            添加收藏数
+            </summary>
+            <param name="hits"></param>
+            <param name="truehits"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ChuanDong.Servo.BLL.Article.AddDowNumber(System.Int32,System.Int32)">
+            <summary>
+            添加下载数
+            </summary>
+            <param name="downumber"></param>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ChuanDong.Servo.BLL.Category.AddCategory(ChuanDong.Servo.RemotingServer.Model.CategoryInfo)">
+            <summary>
+            添加文章分类
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ChuanDong.Servo.BLL.Category.UpdateCategory(ChuanDong.Servo.RemotingServer.Model.CategoryInfo)">
+            <summary>
+            修改分类
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ChuanDong.Servo.BLL.Category.DelCategory(System.Int32)">
+            <summary>
+            删除分类
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ChuanDong.Servo.BLL.Category.GetCategory(System.Int32)">
+            <summary>
+            查询文章类型
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ChuanDong.Servo.BLL.Category.GetCategoryList(System.String)">
+            <summary>
+            查询所有类型
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ChuanDong.Servo.BLL.Collect.AddCollect(ChuanDong.Servo.RemotingServer.Model.CollectInfo)">
+            <summary>
+            添加收藏
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ChuanDong.Servo.BLL.Collect.UpdateCollect(ChuanDong.Servo.RemotingServer.Model.CollectInfo)">
+            <summary>
+            修改收藏
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ChuanDong.Servo.BLL.Collect.DeleteCollect(System.Int32)">
+            <summary>
+            删除收藏
+            </summary>
+            <param name="id">收藏ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:ChuanDong.Servo.BLL.Collect.GetCollect(System.Int32)">
+            <summary>
+            查询收藏
+            </summary>
+            <param name="id">收藏ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:ChuanDong.Servo.BLL.Collect.GetCollectCount(System.String)">
+            <summary>
+            根据条件获取推荐信息记录数
+            </summary>
+            <param name="where"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ChuanDong.Servo.BLL.Collect.GetCollectList(System.Int32,System.Int32,System.Int32,System.String,System.String)">
+            <summary>
+            获取符合指定条件的收藏信息
+            </summary>
+            <param name="pageSize">页大小</param>
+            <param name="pageStart">起始页</param>
+            <param name="count">记录总数</param>
+            <param name="condition">条件</param>
+            <param name="orderStr">排序字符串</param>
+            <returns></returns>
+        </member>
+        <member name="M:ChuanDong.Servo.BLL.Commend.AddCommend(ChuanDong.Servo.RemotingServer.Model.CommendInfo)">
+            <summary>
+            增加推荐
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ChuanDong.Servo.BLL.Commend.UpdateCommend(ChuanDong.Servo.RemotingServer.Model.CommendInfo)">
+            <summary>
+            修改推荐信息
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ChuanDong.Servo.BLL.Commend.DelCommend(System.Int32)">
+            <summary>
+            删除推荐信息
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ChuanDong.Servo.BLL.Commend.DelCommend(System.String)">
+            <summary>
+            删除多条推荐信息
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ChuanDong.Servo.BLL.Commend.GetCommend(System.Int32)">
+            <summary>
+            获取推荐信息
+            </summary>
+            <param name="id">推荐id</param>
+            <returns></returns>
+        </member>
+        <member name="M:ChuanDong.Servo.BLL.Commend.GetCommendCount(System.String)">
+            <summary>
+            根据条件获取推荐信息总记录数
+            </summary>
+            <param name="where"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ChuanDong.Servo.BLL.Commend.GetCommendList(System.Int32,System.Int32,System.Int32,System.String)">
+            <summary>
+            获取符合指定条件的推荐信息
+            </summary>
+            <param name="pageSize">页大小</param>
+            <param name="pageStart">起始页</param>
+            <param name="count">记录总数</param>
+            <param name="conditio">查询条件</param>
+        </member>
+        <member name="M:ChuanDong.Servo.BLL.CommendModule.GetCommendModule(System.Int32)">
+            <summary>
+            查询推荐模块
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ChuanDong.Servo.BLL.CommendModule.GetCommendModuleList">
+            <summary>
+            查询所有推荐模块
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ChuanDong.Servo.BLL.Comment.AddComment(ChuanDong.Servo.RemotingServer.Model.CommentInfo)">
+            <summary>
+            发布评论
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ChuanDong.Servo.BLL.Comment.UpdateComment(ChuanDong.Servo.RemotingServer.Model.CommentInfo)">
+            <summary>
+            修改评论
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ChuanDong.Servo.BLL.Comment.DelComment(System.Int32)">
+            <summary>
+            删除评论信息
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ChuanDong.Servo.BLL.Comment.DelComment(System.String)">
+            <summary>
+            删除多条评论信息
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ChuanDong.Servo.BLL.Comment.GetComment(System.Int32)">
+            <summary>
+            获取评论信息
+            </summary>
+            <param name="id">评论id</param>
+            <returns></returns>
+        </member>
+        <member name="M:ChuanDong.Servo.BLL.Comment.GetCommentCount(System.String)">
+            <summary>
+            根据条件获取评论信息总记录数
+            </summary>
+            <param name="where"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ChuanDong.Servo.BLL.Comment.GetCommentList(System.Int32,System.Int32,System.Int32,System.String)">
+            <summary>
+            获取符合指定条件的评论信息
+            </summary>
+            <param name="pageSize">页大小</param>
+            <param name="pageStart">起始页</param>
+            <param name="count">记录总数</param>
+            <param name="conditio">查询条件</param>
+        </member>
+        <member name="M:ChuanDong.Servo.BLL.Comment.GetUserLastComment(System.Int32)">
+            <summary>
+            获取用户最后一次提交的来信
+            </summary>
+            <param name="id">用户id</param>
+            <returns></returns>
+        </member>
+        <member name="M:ChuanDong.Servo.BLL.Email.AddEmail(ChuanDong.Servo.RemotingServer.Model.EmailInfo)">
+            <summary>
+            添加订阅
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ChuanDong.Servo.BLL.Email.GetEmailCount(System.String)">
+            <summary>
+            订阅邮箱个数
+            </summary>
+        </member>
+        <member name="M:ChuanDong.Servo.BLL.Email.GetEmailList(System.Int32,System.Int32,System.Int32,System.String)">
+            <summary>
+            获取符合指定条件的订阅信息
+            </summary>
+            <param name="pageSize">页大小</param>
+            <param name="pageStart">起始页</param>
+            <param name="count">记录总数</param>
+            <param name="conditio">查询条件</param>
+        </member>
+        <member name="M:ChuanDong.Servo.BLL.Magazine.AddMagazine(ChuanDong.Servo.RemotingServer.Model.MagazineInfo)">
+            <summary>
+            添加杂志
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ChuanDong.Servo.BLL.Magazine.UpdateMagazine(ChuanDong.Servo.RemotingServer.Model.MagazineInfo)">
+            <summary>
+            修改杂志
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ChuanDong.Servo.BLL.Magazine.IsCheckedMagazine(System.Int32,System.Int32)">
+            <summary>
+            杂志审核
+            </summary>
+            <param name="id">编号ID</param>
+            <param name="ischecked">审核状态</param>
+        </member>
+        <member name="M:ChuanDong.Servo.BLL.Magazine.DelMagazine(System.Int32)">
+            <summary>
+            删除杂志信息
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ChuanDong.Servo.BLL.Magazine.GetMagazine(System.Int32)">
+            <summary>
+            获取杂志信息
+            </summary>
+            <param name="id">杂志id</param>
+            <returns></returns>
+        </member>
+        <member name="M:ChuanDong.Servo.BLL.Magazine.GetNewsMagazine">
+            <summary>
+            获取最新杂志信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ChuanDong.Servo.BLL.Magazine.GetMagazineCount(System.String)">
+            <summary>
+            根据条件获取杂志总记录数
+            </summary>
+            <param name="where"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ChuanDong.Servo.BLL.Magazine.GetMagazineList(System.Int32,System.Int32,System.Int32,System.String)">
+            <summary>
+            获取符合指定条件的杂志信息
+            </summary>
+            <param name="pageSize">页大小</param>
+            <param name="pageStart">起始页</param>
+            <param name="count">记录总数</param>
+            <param name="conditio">查询条件</param>
+        </member>
+        <member name="M:ChuanDong.Servo.BLL.MobileAD.AddMobileAD(ChuanDong.Servo.RemotingServer.Model.MobileADInfo)">
+            <summary>
+            增加手机广告
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ChuanDong.Servo.BLL.MobileAD.UpdateMobileAD(ChuanDong.Servo.RemotingServer.Model.MobileADInfo)">
+            <summary>
+            修改手机广告
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ChuanDong.Servo.BLL.MobileAD.DelMobileAD(System.Int32)">
+            <summary>
+            删除手机广告
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ChuanDong.Servo.BLL.MobileAD.GetMobileAD(System.Int32)">
+            <summary>
+            获取手机广告信息
+            </summary>
+            <param name="id">推荐id</param>
+            <returns></returns>
+        </member>
+        <member name="M:ChuanDong.Servo.BLL.MobileAD.AddMobileADHits(System.Int32,System.Int32)">
+            <summary>
+            添加点击数
+            </summary>
+            <param name="hits">增加的点击数</param>
+            <param name="id">增加的id</param>
+            <returns></returns>
+        </member>
+        <member name="M:ChuanDong.Servo.BLL.MobileAD.GetMobileADCount(System.String)">
+            <summary>
+            根据条件获取手机广告信息总记录数
+            </summary>
+            <param name="where"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ChuanDong.Servo.BLL.MobileAD.GetMobileADList(System.Int32,System.Int32,System.Int32,System.String)">
+            <summary>
+            获取符合指定条件的推荐信息
+            </summary>
+            <param name="pageSize">页大小</param>
+            <param name="pageStart">起始页</param>
+            <param name="count">记录总数</param>
+            <param name="conditio">查询条件</param>
+        </member>
+    </members>
+</doc>
