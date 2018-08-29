@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CD.ChuanDong.Console.RemotingServer.Model</name>
+    </assembly>
+    <members>
+        <member name="T:CD.ChuanDong.Console.RemotingServer.Model.AdminInfo">
+            <summary>
+            管理员信息
+            </summary>
+        </member>
+        <member name="P:CD.ChuanDong.Console.RemotingServer.Model.AdminInfo.UsersName">
+            <summary>
+            登录名
+            </summary>
+        </member>
+        <member name="P:CD.ChuanDong.Console.RemotingServer.Model.AdminInfo.UsersPwd">
+            <summary>
+            登录密码
+            </summary>
+        </member>
+        <member name="P:CD.ChuanDong.Console.RemotingServer.Model.AdminInfo.TrueName">
+            <summary>
+            真实姓名
+            </summary>
+        </member>
+        <member name="P:CD.ChuanDong.Console.RemotingServer.Model.AdminInfo.Joindate">
+            <summary>
+            添加时间
+            </summary>
+        </member>
+        <member name="P:CD.ChuanDong.Console.RemotingServer.Model.AdminInfo.LoginTime">
+            <summary>
+            最后登录时间
+            </summary>
+        </member>
+        <member name="P:CD.ChuanDong.Console.RemotingServer.Model.AdminInfo.LoginIP">
+            <summary>
+            最近登录ip
+            </summary>
+        </member>
+        <member name="P:CD.ChuanDong.Console.RemotingServer.Model.AdminInfo.RightStr">
+            <summary>
+            权限字符串
+            </summary>
+        </member>
+        <member name="P:CD.ChuanDong.Console.RemotingServer.Model.AdminInfo.Role">
+            <summary>
+            所属角色
+            </summary>
+        </member>
+        <member name="P:CD.ChuanDong.Console.RemotingServer.Model.GroupInfo.ID">
+            <summary>
+            管理员组id
+            </summary>
+        </member>
+        <member name="P:CD.ChuanDong.Console.RemotingServer.Model.GroupInfo.GroupName">
+            <summary>
+            管理员组名称
+            </summary>
+        </member>
+        <member name="P:CD.ChuanDong.Console.RemotingServer.Model.GroupInfo.Rights">
+            <summary>
+            管理员组权限字符串
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,15 @@
+D:\chuandong\stock\CD.ChuanDong.Stock.RemotingServer.BLL\bin\Debug\CD.ChuanDong.Stock.RemotingServer.BLL.dll
+D:\chuandong\stock\CD.ChuanDong.Stock.RemotingServer.BLL\bin\Debug\CD.ChuanDong.Stock.RemotingServer.BLL.pdb
+D:\chuandong\stock\CD.ChuanDong.Stock.RemotingServer.BLL\obj\Debug\CD.ChuanDong.Stock.RemotingServer.BLL.csprojResolveAssemblyReference.cache
+D:\chuandong\stock\CD.ChuanDong.Stock.RemotingServer.BLL\obj\Debug\CD.ChuanDong.Stock.RemotingServer.BLL.dll
+D:\chuandong\stock\CD.ChuanDong.Stock.RemotingServer.BLL\obj\Debug\CD.ChuanDong.Stock.RemotingServer.BLL.pdb
+D:\chuandong\stock\CD.ChuanDong.Stock.RemotingServer.BLL\bin\Debug\CD.ChuanDong.Stock.RemotingServer.DAL.dll
+D:\chuandong\stock\CD.ChuanDong.Stock.RemotingServer.BLL\bin\Debug\CD.ChuanDong.Stock.RemotingServer.IBLL.dll
+D:\chuandong\stock\CD.ChuanDong.Stock.RemotingServer.BLL\bin\Debug\CD.ChuanDong.Stock.RemotingServer.Model.dll
+D:\chuandong\stock\CD.ChuanDong.Stock.RemotingServer.BLL\bin\Debug\CD.ChuanDong.Stock.RemotingServer.DbHelper.dll
+D:\chuandong\stock\CD.ChuanDong.Stock.RemotingServer.BLL\bin\Debug\CD.ChuanDong.Stock.RemotingServer.DAL.pdb
+D:\chuandong\stock\CD.ChuanDong.Stock.RemotingServer.BLL\bin\Debug\CD.ChuanDong.Stock.RemotingServer.IBLL.pdb
+D:\chuandong\stock\CD.ChuanDong.Stock.RemotingServer.BLL\bin\Debug\CD.ChuanDong.Stock.RemotingServer.Model.pdb
+D:\chuandong\stock\CD.ChuanDong.Stock.RemotingServer.BLL\bin\Debug\CD.ChuanDong.Stock.RemotingServer.DbHelper.pdb
+D:\chuandong\REFERENCE\CD.ChuanDong.Stock.RemotingServer.BLL.dll
+D:\chuandong\REFERENCE\CD.ChuanDong.Stock.RemotingServer.BLL.pdb

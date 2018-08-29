@@ -1,0 +1,4 @@
+D:\chuandong\stock\CD.ChuanDong.Stock.RemotingServer.DbHelper\bin\Debug\CD.ChuanDong.Stock.RemotingServer.DbHelper.dll
+D:\chuandong\stock\CD.ChuanDong.Stock.RemotingServer.DbHelper\bin\Debug\CD.ChuanDong.Stock.RemotingServer.DbHelper.pdb
+D:\chuandong\stock\CD.ChuanDong.Stock.RemotingServer.DbHelper\obj\Debug\CD.ChuanDong.Stock.RemotingServer.DbHelper.dll
+D:\chuandong\stock\CD.ChuanDong.Stock.RemotingServer.DbHelper\obj\Debug\CD.ChuanDong.Stock.RemotingServer.DbHelper.pdb

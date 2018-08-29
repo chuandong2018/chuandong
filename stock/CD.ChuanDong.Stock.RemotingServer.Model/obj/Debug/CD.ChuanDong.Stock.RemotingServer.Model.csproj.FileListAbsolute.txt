@@ -1,0 +1,9 @@
+E:\SVN\stock\CD.ChuanDong.Stock.RemotingServer.Model\bin\Debug\CD.ChuanDong.Stock.RemotingServer.Model.dll
+E:\SVN\stock\CD.ChuanDong.Stock.RemotingServer.Model\bin\Debug\CD.ChuanDong.Stock.RemotingServer.Model.pdb
+E:\SVN\stock\CD.ChuanDong.Stock.RemotingServer.Model\obj\Debug\CD.ChuanDong.Stock.RemotingServer.Model.dll
+E:\SVN\stock\CD.ChuanDong.Stock.RemotingServer.Model\obj\Debug\CD.ChuanDong.Stock.RemotingServer.Model.pdb
+E:\SVN\stock\CD.ChuanDong.Stock.RemotingServer.Model\obj\Debug\CD.ChuanDong.Stock.RemotingServer.Model.csprojResolveAssemblyReference.cache
+D:\chuandong\stock\CD.ChuanDong.Stock.RemotingServer.Model\bin\Debug\CD.ChuanDong.Stock.RemotingServer.Model.dll
+D:\chuandong\stock\CD.ChuanDong.Stock.RemotingServer.Model\bin\Debug\CD.ChuanDong.Stock.RemotingServer.Model.pdb
+D:\chuandong\stock\CD.ChuanDong.Stock.RemotingServer.Model\obj\Debug\CD.ChuanDong.Stock.RemotingServer.Model.dll
+D:\chuandong\stock\CD.ChuanDong.Stock.RemotingServer.Model\obj\Debug\CD.ChuanDong.Stock.RemotingServer.Model.pdb

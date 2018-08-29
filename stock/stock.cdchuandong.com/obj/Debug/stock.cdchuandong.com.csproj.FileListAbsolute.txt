@@ -1,0 +1,5 @@
+D:\chuandong\stock\stock.cdchuandong.com\bin\stock.cdchuandong.com.dll.config
+D:\chuandong\stock\stock.cdchuandong.com\bin\stock.cdchuandong.com.dll
+D:\chuandong\stock\stock.cdchuandong.com\bin\stock.cdchuandong.com.pdb
+D:\chuandong\stock\stock.cdchuandong.com\obj\Debug\stock.cdchuandong.com.dll
+D:\chuandong\stock\stock.cdchuandong.com\obj\Debug\stock.cdchuandong.com.pdb
